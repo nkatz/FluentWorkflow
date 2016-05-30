@@ -1,0 +1,21 @@
+{
+  "name": "nkatz/FluentWorkflow",
+  "version": "0.0.1",
+  "type": "library",
+  "description": "A simple PHP framework for workflows",
+  "keywords": ["workflow", "simple", "fluent", "aws", "swf"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Noam Katz"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "1.*"
+  },
+  "autoload": {
+      "psr-4": {
+          "FluentWorkflow\\": "src/"
+      }
+  }
+}
